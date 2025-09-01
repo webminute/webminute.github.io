@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <meta name="description" content="Web Minute - Création de sites web professionnels, rapides et sur mesure pour freelances, artisans et PME.">
+  <meta name="keywords" content="création site web, site vitrine, développeur web, freelance, micro-entreprise, webdesign, SEO, responsive">
+  <meta name="author" content="Web Minute">
+
+  <!-- Open Graph (pour les réseaux sociaux) -->
+  <meta property="og:title" content="Web Minute - Création de Sites Web Rapides & Sur Mesure">
+  <meta property="og:description" content="Obtenez un site web professionnel rapidement, adapté à vos besoins. Design moderne, référencement optimisé, tarif accessible.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://web-minute.fr">
+  <meta property="og:image" content="https://web-minute.fr/logo.png"> <!-- Remplace par ton image réelle -->
+
+  <!-- Fichier CSS -->
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- Titre de la page -->
+  <title>Web Minute - Création de Sites Web Rapides & Professionnels</title>
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Web Minute",
+    "description": "Création de sites web rapides, professionnels et sur mesure pour freelances, TPE et indépendants.",
+    "url": "https://web-minute.fr",
+    "telephone": "+33 6 03 84 31 59",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8 Rue du Courreau",
+      "addressLocality": "Viols-le-Fort",
+      "postalCode": "34380",
+      "addressCountry": "FR"
+    },
+    "openingHours": "Mo-Sa 09:00-19:00",
+    "image": "https://web-minute.fr/images/og-image.jpg"  // Remplace aussi ici si besoin
+  }
+  </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <div class="logo"><img id="logo" src="logo.png"></div>
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#" class="nav-link active" data-page="home">Accueil</a></li>
+                    <li><a href="#" class="nav-link" data-page="about">Présentation</a></li>
+                    <li><a href="#" class="nav-link" data-page="gallery">Galerie</a></li>
+                    <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+                    <li><a href="#" class="nav-link" data-page="tarifs">Tarifs</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">☰</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page Accueil -->
+        <div id="home" class="page active">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Bienvenue chez Web Minute</h1>
+                    <p>Offrez à votre activité un site internet, conçu rapidement et à prix imbattable, pour booster votre visibilité sur internet.</p>
+                    <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ08p6E-wP-VpN-N_PvOB65NuaiWewuCRzZuuBj3BPHVsBxy1nDuoJoKSoMxX2EYXRuYTz55X8K6" target="_blank" class="cta-button">Prendre Rendez-vous</a>
+                </div>
+            </section>
+            <!--- NOS services-->
+            <section class="services">
+                <div class="container">
+                    <h2 class="section-title">Nos Services</h2>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">💻</div>
+                            <h3>Site internet sur mesure</h3>
+                            <p>
+                                Conception et mise en ligne de votre site vitrine (3 pages) avec un design moderne et responsive.
+                            </p>
+                            <p>
+                                En option : un <strong>formulaire de contact sécurisé</strong>, un <strong>module de prise de rendez-vous (Google Calendar)</strong>, 
+                                la <strong>configuration SEO de base</strong> (titres, descriptions, balises), ainsi que la <strong>mise en ligne sur un hébergement gratuit</strong> (GitHub Pages).
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">🌐</div>
+                            <h3>Nom de domaine personnalisé</h3>
+                            <p>
+                                Votre identité en ligne mérite une adresse unique ! 
+                                Nous nous occupons de l’achat et de la configuration d’un nom de domaine en <strong>.fr</strong> ou <strong>.com</strong> 
+                                chez un <strong>registar français</strong>, pour garantir un site professionnel et crédible dès le premier jour.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">🛠️</div>
+                            <h3>Maintenance & évolutions</h3>
+                            <p>
+                                Votre site reste vivant et à jour grâce à nos solutions de maintenance : 
+                                <br>— <strong>Formule annuelle (100 €/an)</strong> : modifications illimitées sur les pages existantes (textes, images, couleurs, horaires, liens). 
+                                <br>— <strong>Interventions ponctuelles</strong> : ajustements rapides à partir de 10 € selon complexité. 
+                                <br><br>Vous êtes accompagné <strong>7j/7</strong> pour toute modification ou évolution.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">✅</div>
+                            <h3>Engagement qualité</h3>
+                            <p>
+                                Chaque projet est réalisé selon les règles de l’art et inclut une garantie de 30 jours contre les bogues bloquants. 
+                                Vous bénéficiez également d’un suivi personnalisé et d’une écoute attentive pour faire évoluer votre site au fil du temps.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">🤝</div>
+                            <h3>Sérénité & transparence</h3>
+                            <p>
+                                Pas de frais cachés : tout est clairement défini dans le contrat signé au préalable. 
+                                Le paiement s’effectue ainsi : <strong>30 % à la commande, 70 % à la livraison</strong>.<br>
+                                Vous conservez <strong>la propriété de votre nom de domaine et de votre site</strong>, et nous restons disponibles pour vous accompagner sur le long terme.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">🔒</div>
+                            <h3>Portabilité & sécurité</h3>
+                            <p>
+                                Votre identité en ligne mérite une adresse unique ! 
+                                Nous nous occupons de l’achat et de la configuration d’un nom de domaine en <strong>.fr</strong> ou <strong>.com</strong> 
+                                chez un <strong>registar français</strong>, pour garantir un site professionnel et crédible dès le premier jour.
+                            </p>
+                            <p>
+                                Si vous le souhaitez, votre site, ainsi que tous ses accès et sa gestion, peuvent être <strong>transférés à un autre prestataire</strong>. 
+                                Toutes les données et informations d’accès sont transmises de manière <strong>sécurisée</strong> via un <strong>gestionnaire de mots de passe chiffré et sécurisé</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Page Présentation -->
+        <div id="about" class="page">
+            <section style="padding: 5rem 0; background: var(--light-bg);">
+                <div class="container">
+                    <h2 class="section-title">Notre Histoire</h2>
+                    <div style="max-width: 800px; margin: 0 auto; text-align: center; font-size: 1.1rem; line-height: 1.8;">
+                        <p style="margin-bottom: 2rem;">
+                            <strong>Web Minute</strong> est né d’une volonté claire : rendre la création et la gestion d’un site web simple, rapide et accessible à tous. 
+                            En tant qu’étudiant passionné par le numérique, j’ai constaté que beaucoup de petits commerces et d’entreprises hésitent encore à franchir le pas : peur de la complexité, manque de temps, coûts élevés.
+                        </p>
+
+                        <p style="margin-bottom: 2rem;">
+                            Avec <strong>Web Minute</strong>, j’ai voulu changer ça. Mon objectif est de proposer des sites <em>clés en main</em>, modernes et performants, accompagnés d’une maintenance assurée en continu pour que votre site reste toujours à jour.
+                        </p>
+
+                        <p style="margin-bottom: 2rem;">
+                            Mon engagement va plus loin : être une entreprise à l’écoute de ses clients <strong>7/7</strong>, prête à intervenir pour la moindre modification ou évolution, afin de vous offrir une tranquillité d’esprit totale.
+                        </p>
+
+                        <p>
+                            Parce qu’un site internet n’est pas seulement une vitrine, mais un véritable <strong>partenaire de votre réussite</strong>, 
+                            je souhaite donner aux commerçants, artisans et petites entreprises une présence digitale professionnelle, sans contraintes ni soucis techniques.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Page Galerie -->
+        <div id="gallery" class="page">
+            <section style="padding: 3rem 0;">
+                <div class="container">
+                    <h2 class="section-title">Notre Galerie</h2>
+                    
+                    <!-- Carrousel -->
+                    <div class="gallery-carousel">
+                        <div class="carousel-container" id="carousel-container">
+                            <div class="carousel-slide" style="background-image: url('logo.png')"></div>
+                            <div class="carousel-slide" style="background-image: url('banner.jpg')"></div>
+                            <div class="carousel-slide" style="background-image: url('kayboard.jpg')"></div>
+                        </div>
+                        <button class="carousel-controls carousel-prev" onclick="prevSlide()">❮</button>
+                        <button class="carousel-controls carousel-next" onclick="nextSlide()">❯</button>
+                        <div class="carousel-dots">
+                            <span class="carousel-dot active" onclick="currentSlide(1)"></span>
+                            <span class="carousel-dot" onclick="currentSlide(2)"></span>
+                            <span class="carousel-dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+
+                    <!-- Grille d'images -->
+                    <div class="gallery-grid">
+                        <div class="gallery-item" style="background-image: url('gallery_gif_1.gif')"></div>
+                        <div class="gallery-item" style="background-image: url('banner_gif.gif')"></div>
+                        <div class="gallery-item" style="background-image: url('web_design_dev.jpg')"></div>                     
+                    
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Page Contact -->
+        <div id="contact" class="page">
+            <section style="padding: 3rem 0;">
+                <div class="container">
+                    <h2 class="section-title">Nous Contacter</h2>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin: 3rem 0;">
+                        <div class="contact-form">
+                        <h3 style="margin-bottom: 2rem; color: var(--primary-color);">Envoyez-nous un message</h3>
+                        <form action="https://formspree.io/f/mzzavkyo" method="POST">
+                            
+                            <div class="form-group">
+                                <label for="email">Email <span style="color: red">*</span></label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Nom">Nom <span style="color: red">*</span></label>
+                                <input type="text" id="Nom" name="Nom" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Prénom">Prénom <span style="color: red">*</span></label>
+                                <input type="text" id="Prénom" name="Prénom" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="numéro-de-téléphone">Numéro de téléphone <span style="color: red">*</span></label>
+                                <input type="tel" id="numéro-de-téléphone" name="numéro de téléphone" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Messages">Messages <span style="color: red">*</span></label>
+                                <textarea id="Messages" name="Messages" rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="submit-btn">Envoyer le Message</button>
+                        </form>
+                    </div>
+
+
+
+                        <!-- Informations de contact -->
+                        <div>
+                            <div class="contact-form" style="height: fit-content;">
+                                <h3 style="margin-bottom: 2rem; color: var(--primary-color);">Nos Coordonnées</h3>
+                                <div style="margin-bottom: 2rem;">
+                                    <h4 style="color: var(--secondary-color); margin-bottom: 0.5rem;">📍 Adresse</h4>
+                                    <p>123 Rue Example<br>34000 Montpellier, France</p>
+                                </div>
+                                <div style="margin-bottom: 2rem;">
+                                    <h4 style="color: var(--secondary-color); margin-bottom: 0.5rem;">📞 Téléphone</h4>
+                                    <p><a href="tel:+33467000000" style="color: var(--dark-text); text-decoration: none;">+33 4 67 XX XX XX</a></p>
+                                </div>
+                                <div style="margin-bottom: 2rem;">
+                                    <h4 style="color: var(--secondary-color); margin-bottom: 0.5rem;">✉️ Email</h4>
+                                    <p><a href="mailto:contact@coiffeur-chams.fr" style="color: var(--dark-text); text-decoration: none;">contact@coiffeur-chams.fr</a></p>
+                                </div>
+                                <div style="margin-bottom: 2rem;">
+                                    <h4 style="color: var(--secondary-color); margin-bottom: 0.5rem;">🕒 Horaires d'ouverture</h4>
+                                    <p>
+                                        Lundi - Vendredi: 9h00 - 19h00<br>
+                                        Samedi: 9h00 - 18h00<br>
+                                        Dimanche: Fermé
+                                    </p>
+                                </div>
+                                <div style="text-align: center;">
+                                    <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ08p6E-wP-VpN-N_PvOB65NuaiWewuCRzZuuBj3BPHVsBxy1nDuoJoKSoMxX2EYXRuYTz55X8K6" target="_blank" class="cta-button" style="display: inline-block; margin-top: 1rem;">Prendre Rendez-vous</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte Google Maps -->
+                    <div style="margin: 3rem 0;">
+                        <h3 style="text-align: center; margin-bottom: 2rem; color: var(--primary-color);">Notre Localisation</h3>
+                        <div style="border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.408963919538!2d3.8795713152277093!3d43.61581427912251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af0c1158c473%3A0xa31e2a402088e7fb!2sCoiffeur%20Chams!5e0!3m2!1sfr!2sfr!4v1691542906319!5m2!1sfr!2sfr"
+                                width="100%"
+                                height="450"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Localisation Coiffeur Chams - Montpellier"
+                                class="google-map">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--- PAGE DE TARIF-->
+        <div id="tarifs" class="page">
+            <section style="padding: 5rem 0; background: #F1F1F1;">
+                <div class="container">
+                    <h2 class="section-title" style="text-align:center; margin-bottom:3rem;">Objet du devis</h2>
+
+                    <p>
+                        Création d’un <strong>site vitrine statique 3 pages</strong> comprenant :
+                    </p>
+                    <ul>
+                        <li>Nom de domaine personnalisé (exemple : nomdelentreprise.fr)</li>
+                        <li>Page d’accueil</li>
+                        <li>Page contact (téléphone, adresse, mail, plan d’accès…)</li>
+                        <li>Page galerie d’images</li>
+                    </ul>
+
+                    <h3 style="margin-top:2rem;">Détails du devis</h3>
+                    <table style="width:100%; border-collapse: collapse; margin-top:1rem; background:#fff;">
+                        <thead>
+                            <tr style="background: var(--primary-color); color:#fff;">
+                                <th style="padding:0.8rem; text-align:left;">Désignation</th>
+                                <th style="padding:0.8rem; text-align:center;">Montant TTC (€)</th>
+                                <th style="padding:0.8rem; text-align:center;">Choisir / Quantité</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="padding:0.8rem;">Création site vitrine 4 pages (site de base)</td>
+                                <td style="padding:0.8rem; text-align:center;">450</td>
+                                <td style="padding:0.8rem; text-align:center;">
+                                    <input type="checkbox" class="option-checkbox" data-price="450" checked disabled>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:0.8rem;">Option : Formulaire de contact</td>
+                                <td style="padding:0.8rem; text-align:center;">50</td>
+                                <td style="padding:0.8rem; text-align:center;">
+                                    <input type="checkbox" class="option-checkbox" data-price="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:0.8rem;">Option : Prise de rendez-vous (Google Calendar)</td>
+                                <td style="padding:0.8rem; text-align:center;">50</td>
+                                <td style="padding:0.8rem; text-align:center;">
+                                    <input type="checkbox" class="option-checkbox" data-price="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:0.8rem;">Option : Pages supplémentaires (par page)</td>
+                                <td style="padding:0.8rem; text-align:center;">30</td>
+                                <td style="padding:0.8rem; text-align:center;">
+                                    <input type="number" id="pages-sup" min="0" value="0" style="width:60px;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3 style="margin-top:2rem;">Total TTC : <span id="total">450</span> €</h3>
+
+                </div>
+            </section>
+        <script>
+            const checkboxes = document.querySelectorAll('.option-checkbox');
+            const pagesInput = document.getElementById('pages-sup');
+            const totalElement = document.getElementById('total');
+
+            function calculateTotal() {
+                let total = 0;
+                // Ajouter les options cochées
+                checkboxes.forEach(cb => {
+                    if(cb.checked) {
+                        total += parseFloat(cb.dataset.price);
+                    }
+                });
+                // Ajouter les pages supplémentaires
+                const pagesCount = parseInt(pagesInput.value) || 0;
+                total += pagesCount * 30;
+                totalElement.textContent = total.toFixed(2);
+            }
+
+            checkboxes.forEach(cb => {
+                cb.addEventListener('change', calculateTotal);
+            });
+
+            pagesInput.addEventListener('input', calculateTotal);
+
+            // Calcul initial
+            calculateTotal();
+        </script>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Web Minute</h3>
+                <p>Créateur de sites web sur mesure, adaptés aux besoins des petits commerces et artisans.</p>
+                <div style="margin-top: 1rem;">
+                    <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ08p6E-wP-VpN-N_PvOB65NuaiWewuCRzZuuBj3BPHVsBxy1nDuoJoKSoMxX2EYXRuYTz55X8K6" target="_blank" style="background: var(--accent-color); color: var(--white); padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 1rem;">Prendre RDV</a>
+                    
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>📍 <br>34000 Montpellier, France</p>
+                <p>📞 <a href="tel:+33603843159">+33 6 03 84 31 59</a></p>
+                <p>✉️ <a href="mailto:webminute34@gmail.com">webminute34@gmail.com</a></p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Horaires</h3>
+                <p>Lundi - Vendredi: 9h00 - 19h00</p>
+                <p>Samedi: Fermé</p>
+                <p>Dimanche: Fermé</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Localisation</h3>
+                <div class="footer-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.408963919538!2d3.8795713152277093!3d43.61581427912251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af0c1158c473%3A0xa31e2a402088e7fb!2sCoiffeur%20Chams!5e0!3m2!1sfr!2sfr!4v1691542906319!5m2!1sfr!2sfr"
+                        width="100%"
+                        height="200"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Plan Coiffeur Chams">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <script>document.write(new Date().getFullYear())</script> Web Minute – Montpellier</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
